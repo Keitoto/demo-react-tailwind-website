@@ -58,4 +58,12 @@ module.exports = {
     'no-debugger': 'off',
     'arrow-body-style': 0, // change to ["error", "always"] before build},
   },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+      typescript: true,
+    },
+  },
 };
