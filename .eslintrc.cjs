@@ -26,7 +26,7 @@ module.exports = {
     'sort-keys-custom-order',
     'simple-import-sort',
   ],
-  ignorePatterns: ['vite.config.ts', '.eslintrc.cjs'],
+  ignorePatterns: ['vite.config.ts', '.eslintrc.cjs', 'tailwind.config.cjs'],
   rules: {
     'react-hooks/rules-of-hooks': 'error',
     'import/prefer-default-export': 'off',
