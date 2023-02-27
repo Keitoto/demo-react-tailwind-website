@@ -24,6 +24,7 @@ module.exports = {
     '@typescript-eslint',
     'react-hooks',
     'sort-keys-custom-order',
+    'simple-import-sort',
   ],
   ignorePatterns: ['vite.config.ts', '.eslintrc.cjs'],
   rules: {
